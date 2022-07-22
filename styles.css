@@ -1,0 +1,72 @@
+html, body, #container {
+
+  background-color: #213c71;
+  color: white;
+}
+
+#submitButton {
+  background-color: #c7681b;
+  color: white;
+  font-size: 1.2em;
+  outline-style: none;
+}
+
+#submitButton:hover {
+  background-color: #f0b797;
+  outline-style: solid;
+  outline-color: #c7681b;
+  outline-width: medium;
+  color: #414141;
+}
+.form-control:hover {
+  outline-style: solid;
+  outline-color: #f0b797;
+  outline-width: medium;
+}
+
+.form-select:hover {
+  outline-style: solid;
+  outline-color: #f0b797;
+  outline-width: medium;
+}
+
+.col-form-label {
+  font-size: 1.4em;
+}
+
+@media (min-width: 490px) {
+  #container-flex {
+    max-width: 100%;
+  }
+}
+
+
+@media (min-width: 576px) {
+  #container-flex {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  #container-flex {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #container-flex {
+    max-width: 95%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #container-flex {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #container-flex {
+    max-width: 60%;
+  }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gestational Age</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="container-flex" class="container mt-5">
+  <form id="calculator" action=# method="post" role="form" class="col-md-12">
+    <h3 class="text-center mb-5">Gestational Age Calculator</h3>
+    <div class="col-md-8 offset-2">
+      <div class="row input-group m-2">
+        <label for="calculationDate" class="col-md-6 col-form-label col-form-label-lg">Date</label>
+        <div class="col-md-6">
+          <input id="calculationDate" type="date" class="form-control form-control-lg" aria-describedby="calculation date">
+        </div>
+      </div>
+      <div class="row input-group m-2">
+        <label for="lmpDate" class="col-md-6 col-form-label col-form-label-lg">Last Menstrual Period</label>
+        <div class="col-md-6">
+          <input id="lmpDate" type="date" class="form-control form-control-lg" aria-describedby="last menstrual period date">
+        </div>
+      </div>
+      <div class="row input-group m-2">
+        <label for="conceptionDate" class="col-md-6 col-form-label col-form-label-lg">Date of Conception</label>
+        <div class="col-md-6">
+          <input id="conceptionDate" type="date" class="form-control form-control-lg" aria-describedby="date of conceptions">
+        </div>
+      </div>
+      <div class="row select-group m-2">
+        <label for="gestationalWeeks" class="col-md-6 col-form-label col-form-label-lg">Gestational Age</label>
+        <div class="col-md-3">
+          <select id="gestationalWeeks" class="form-select form-select-lg ms-2" aria-decribedby="gestational age weeks">
+            <option selected>Weeks</option>
+            <option value="0">0 weeks</option>
+            <option value="1">1 week</option>
+            <option value="2">2 weeks</option>
+            <option value="3">3 weeks</option>
+            <option value="4">4 weeks</option>
+            <option value="5">5 weeks</option>
+            <option value="6">6 weeks</option>
+            <option value="7">7 weeks</option>
+            <option value="8">8 weeks</option>
+            <option value="9">9 weeks</option>
+            <option value="10">10 weeks</option>
+            <option value="11">11 weeks</option>
+            <option value="12">12 weeks</option>
+            <option value="13">13 weeks</option>
+            <option value="14">14 weeks</option>
+            <option value="15">15 weeks</option>
+            <option value="16">16 weeks</option>
+            <option value="17">17 weeks</option>
+            <option value="18">18 weeks</option>
+            <option value="19">19 weeks</option>
+            <option value="20">20 weeks</option>
+            <option value="21">21 weeks</option>
+            <option value="22">22 weeks</option>
+            <option value="23">23 weeks</option>
+            <option value="24">24 weeks</option>
+            <option value="25">25 weeks</option>
+            <option value="26">26 weeks</option>
+            <option value="27">27 weeks</option>
+            <option value="28">28 weeks</option>
+            <option value="29">29 weeks</option>
+            <option value="30">30 weeks</option>
+            <option value="31">31 weeks</option>
+            <option value="32">32 weeks</option>
+            <option value="33">33 weeks</option>
+            <option value="34">34 weeks</option>
+            <option value="35">35 weeks</option>
+            <option value="36">36 weeks</option>
+            <option value="37">37 weeks</option>
+            <option value="38">38 weeks</option>
+            <option value="39">39 weeks</option>
+            <option value="40">40 weeks</option>
+            <option value="41">41 weeks</option>
+            <option value="42">42 weeks</option>
+            <option value="43">43 weeks</option>
+            <option value="44">44 weeks</option>
+            <option value="45">45 weeks</option>
+            <option value="46">46 weeks</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <select id="gestationalDays" class="form-select form-select-lg ms-2" aria-decribedby="gestational age days">
+            <option selected>Days</option>
+            <option value="0">0 days</option>
+            <option value="1">1 day</option>
+            <option value="2">2 days</option>
+            <option value="3">3 days</option>
+            <option value="4">4 days</option>
+            <option value="5">5 days</option>
+            <option value="6">6 days</option>
+          </select>
+        </div>
+      </div>
+      <div class="row input-group m-2">
+        <label for="eddDate" class="col-md-6 col-form-label col-form-label-lg">EDD</label>
+        <div class="col-md-6">
+          <input id="eddDate" type="date" class="form-control form-control-lg" aria-describedby="edd date">
+        </div>
+      </div>
+      <div class="row col-6 offset-sm-3 mt-4">
+        <button id="submitButton" type="submit" class="btn">CALCULATE</button>
+      </div>
+      <div class="row text-center mt-4" style="font-size: 1.3em">
+        <p id="messageElement"><p>
+      </div>
+    </div>
+  </form>
+</div>
+<script src="javascript.js"></script>
+
+</body>
+</html>
